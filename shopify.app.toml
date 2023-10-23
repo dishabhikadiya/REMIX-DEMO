@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "app-task"
+client_id = "c3a646855d29ad3c1f6b12ccaadc4273"
+application_url = "https://plains-champion-lil-mariah.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://plains-champion-lil-mariah.trycloudflare.com/auth/callback",
+  "https://plains-champion-lil-mariah.trycloudflare.com/auth/shopify/callback",
+  "https://plains-champion-lil-mariah.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "appmixo-disha.myshopify.com"

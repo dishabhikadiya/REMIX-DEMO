@@ -247,4 +247,5 @@ This template uses [Remix](https://remix.run). The following Shopify tools are a
 - [Shopify Functions](https://shopify.dev/docs/api/functions)
 - [Getting started with internationalizing your app](https://shopify.dev/docs/apps/best-practices/internationalization/getting-started)
 #   r e m i x - d e m o p r o j e c t  
+ #   R E M I X - D E M O  
  
